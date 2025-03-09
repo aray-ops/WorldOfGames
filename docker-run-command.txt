@@ -1,0 +1,1 @@
+docker run -p 8777:8777 -v $(pwd)/Scores.txt:/Scores.txt yourusername/wog:latest
