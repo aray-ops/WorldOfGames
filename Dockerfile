@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
 COPY Scores.txt /Scores.txt
-CMD ["python", "MainScores.py"]
+CMD ["python3", "MainScores.py"]
